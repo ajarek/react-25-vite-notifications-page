@@ -1,0 +1,20 @@
+{
+    "notifications":[
+        {
+            "name":"Mark Webber",
+            "src":"./assets/images/avatar-mark-webber.webp",
+            "text": "reacted to your recent post My first tournament today!",
+             "date":" 1m ago",
+             "id":1
+
+    },
+    {
+        "name":"Angela Gray",
+        "src":"./assets/images/avatar-angela-gray.webp",
+        "text": "followed you",
+         "date":" 5m ago",
+         "id":1
+
+}
+]
+}

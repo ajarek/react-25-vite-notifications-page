@@ -1,0 +1,33 @@
+.root {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notifications{
+  margin-left: 1rem;
+  background-color:hsl(219, 85%, 26%);
+  color:hsl(0, 0%, 100%) ; 
+  font-size: 1rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 2px;
+}
+.markBtn{
+    background-color: transparent;
+    border:none ;
+    cursor: pointer;
+    font-size: 1rem;
+    color:hsl(219, 85%, 26%) ;
+    border: 1px solid transparent;
+    padding: 0.3rem;
+    transition: 0.3s ease-in-out;
+}
+.markBtn:hover{
+   border: 1px solid hsl(219, 91%, 26%); 
+}

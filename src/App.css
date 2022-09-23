@@ -1,0 +1,10 @@
+#root {
+  max-width: 1280px;
+}
+.App{
+  width: 600px;
+  min-height: 100vh;
+  padding: 0 2rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
