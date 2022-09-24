@@ -1,20 +1,60 @@
 {
-    "notifications":[
-        {
-            "name":"Mark Webber",
-            "src":"./assets/images/avatar-mark-webber.webp",
-            "text": "reacted to your recent post My first tournament today!",
-             "date":" 1m ago",
-             "id":1
-
+  "notifications": [
+    {
+      "name": "Mark Webber",
+      "src": "src/assets/images/avatar-mark-webber.webp",
+      "text": "reacted to your recent post My first tournament today!",
+      "message":"",
+      "date": " 1m ago",
+      "id": 1
     },
     {
-        "name":"Angela Gray",
-        "src":"./assets/images/avatar-angela-gray.webp",
-        "text": "followed you",
-         "date":" 5m ago",
-         "id":1
-
-}
-]
+      "name": "Angela Gray",
+      "src": "src/assets/images/avatar-angela-gray.webp",
+      "text": "followed you",
+      "message":"",
+      "date": " 5m ago",
+      "id": 2
+    },
+    {
+        "name": "Jacob Thompson",
+        "src": "src/assets/images/avatar-jacob-thompson.webp",
+        "text": "has joined your group Chess Club",
+        "message":"",
+        "date": " 1 day ago",
+        "id": 3
+      },
+      {
+        "name": "Rizky Hasanuddin",
+        "src": "src/assets/images/avatar-rizky-hasanuddin.webp",
+        "text": "sent you a private message",
+        "message":" Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+        "date": " 5 days ago",
+        "id": 4
+      },
+      {
+        "name": "Kimberly Smith",
+        "src": "src/assets/images/avatar-kimberly-smith.webp",
+        "text": " commented on your picture",
+        "message":"",
+        "date": " 1 week ago",
+        "id": 5
+      },
+      {
+        "name": "Nathan Peterson",
+        "src": "src/assets/images/avatar-nathan-peterson.webp",
+        "text": "reacted to your recent post 5 end-game strategies to increase your win rate",
+        "message":"",
+        "date": " 2 weeks ago",
+        "id": 6
+      },
+      {
+        "name": "Anna Kim",
+        "src": "src/assets/images/avatar-anna-kim.webp",
+        "text": "left the group Chess Club ",
+        "message":"",
+        "date": " 2 weeks ago",
+        "id": 7
+      }
+  ]
 }
