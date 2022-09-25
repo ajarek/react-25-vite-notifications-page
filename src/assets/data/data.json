@@ -4,24 +4,27 @@
       "name": "Mark Webber",
       "src": "src/assets/images/avatar-mark-webber.webp",
       "text": "reacted to your recent post My first tournament today!",
-      "message":"",
+      "message":" Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
       "date": " 1m ago",
+      "status":true,
       "id": 1
     },
     {
       "name": "Angela Gray",
       "src": "src/assets/images/avatar-angela-gray.webp",
       "text": "followed you",
-      "message":"",
+      "message":" Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
       "date": " 5m ago",
+      "status":true,
       "id": 2
     },
     {
         "name": "Jacob Thompson",
         "src": "src/assets/images/avatar-jacob-thompson.webp",
         "text": "has joined your group Chess Club",
-        "message":"",
+        "message":" Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
         "date": " 1 day ago",
+        "status":false,
         "id": 3
       },
       {
@@ -30,30 +33,34 @@
         "text": "sent you a private message",
         "message":" Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
         "date": " 5 days ago",
+        "status":false,
         "id": 4
       },
       {
         "name": "Kimberly Smith",
         "src": "src/assets/images/avatar-kimberly-smith.webp",
         "text": " commented on your picture",
-        "message":"",
+        "message":" Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
         "date": " 1 week ago",
+        "status":false,
         "id": 5
       },
       {
         "name": "Nathan Peterson",
         "src": "src/assets/images/avatar-nathan-peterson.webp",
         "text": "reacted to your recent post 5 end-game strategies to increase your win rate",
-        "message":"",
+        "message":" Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
         "date": " 2 weeks ago",
+        "status":false,
         "id": 6
       },
       {
         "name": "Anna Kim",
         "src": "src/assets/images/avatar-anna-kim.webp",
         "text": "left the group Chess Club ",
-        "message":"",
+        "message":" Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
         "date": " 2 weeks ago",
+        "status":false,
         "id": 7
       }
   ]

@@ -6,6 +6,8 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+
 .wrapper{
     display: flex;
     background-color:rgb(241, 244, 248) ;
@@ -48,10 +50,12 @@ padding: 0 0.5rem;
     color:rgba(0,0,0,0.5);
 }
 .message{
-    padding: 0.5rem 1rem;
+    display:none;
     font-size: 0.9rem;
     background-color:hsl(223, 23%, 94%) ;
     margin-top:0.5rem ;
-    border: 1px solid rgba(0,0,0,0.5);
     border-radius: 5px;
+}
+.active ~ .message  {
+ display: flex;
 }
