@@ -4,13 +4,16 @@ import classes from "./styles.module.css"
 
 export const ListBlog = (props) => {
   const { className, data, ...otherProps } = props
+  
   const [show, setShow] = useState(true)
-
  
   const  handleToggle = (e) => {
-    console.log();
-    e.target.parentElement.parentElement.parentElement.className=`${classes.active}`
     
+     
+    show?e.target.parentElement.parentElement.parentElement.className=`${classes.active}`
+    :e.target.parentElement.parentElement.parentElement.className=`${classes.nonactive}`
+    
+    setShow(show=>!show)
     }
     
   
@@ -45,7 +48,12 @@ export const ListBlog = (props) => {
                   <div className={classes.name}>{el.name}</div>
                   <div className={classes.text}>{el.text}</div>
                 </div>
-                <div className={classes.date}>{el.date} <button  onClick={handleToggle}>Onclick</button></div>
+                <div className={classes.date}>{el.date} 
+                <button 
+                className={classes.btn}
+                 onClick={handleToggle}>{show?"Read":"Close"}
+                 </button>
+                </div>
               </div>
             </div>
             <div  className={`${classes.message}`}

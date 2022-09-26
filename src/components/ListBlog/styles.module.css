@@ -12,7 +12,6 @@
     display: flex;
     background-color:rgb(241, 244, 248) ;
     padding: 0.5rem 0;
-    
 }
 .wrapper1{
     display: flex;
@@ -48,6 +47,9 @@ padding: 0 0.5rem;
 }
 .date{
     color:rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .message{
     display:none;
@@ -57,5 +59,12 @@ padding: 0 0.5rem;
     border-radius: 5px;
 }
 .active ~ .message  {
- display: flex;
+    display: flex; 
+}
+.nonactive ~ .message{
+    display: none;
+}
+.btn{
+   padding:0.2rem 0.5rem  ;
+   cursor: pointer;
 }
